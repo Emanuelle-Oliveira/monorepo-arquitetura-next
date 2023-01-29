@@ -1,5 +1,5 @@
 {
-  "name": "@manu/web-public",
+  "name": "@project/web-public",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -7,16 +7,21 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint './**/*.{ts,tsx}'"
   },
   "dependencies": {
+    "@project/design-system": "*",
+    "@project/utils": "*",
+    "eslint": "^8.33.0",
     "next": "^13.1.6",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "styled-components": "5.3.6"
   },
   "devDependencies": {
-    "@types/node": "18.11.18",
-    "@types/react": "18.0.27",
-    "typescript": "4.9.4"
+    "@project/eslint-commons": "*",
+    "@project/tsconfig-commons": "*",
+    "next-compose-plugins": "^2.2.1",
+    "next-transpile-modules": "^10.0.0"
   }
 }

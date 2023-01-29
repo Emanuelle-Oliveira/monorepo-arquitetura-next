@@ -1,0 +1,13 @@
+{
+  "name": "@project/utils",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@project/tsconfig-commons": "*",
+    "@project/eslint-commons": "*"
+  },
+  "scripts": {
+    "lint": "eslint './**/*.{ts,tsx}'"
+  }
+}
