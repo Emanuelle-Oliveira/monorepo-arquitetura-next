@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "test": "jest",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -19,6 +20,7 @@
     "styled-components": "5.3.6"
   },
   "devDependencies": {
+    "@project/test-commons": "*",
     "@project/eslint-commons": "*",
     "@project/tsconfig-commons": "*",
     "next-compose-plugins": "^2.2.1",

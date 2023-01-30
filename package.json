@@ -12,17 +12,23 @@
     "prettier": "2.8.3",
     "@types/styled-components": "5.1.26",
     "@types/node": "18.11.18",
+    "@types/jest": "29.4.0",
     "@types/react": "18.0.27",
     "typescript": "4.9.4"
   },
   "scripts": {
     "lint": "yarn workspaces run lint",
+    "test": "yarn workspaces run test",
     "web-public": "yarn workspace @project/web-public",
     "dev:web-public": "yarn web-public dev",
     "build:web-public": "yarn web-public build",
     "start:web-public": "yarn web-public start",
     "lint:web-public": "yarn web-public lint",
-    "design-system": "yarn workspace @project/design-system"
+    "test:web-public": "yarn web-public test",
+    "design-system": "yarn workspace @project/design-system",
+    "utils": "yarn workspace @project/utils",
+    "test:utils": "yarn utils test",
+    "test:design-system": "yarn design-system test"
   }
 }
 

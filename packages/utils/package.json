@@ -5,9 +5,11 @@
   "license": "MIT",
   "devDependencies": {
     "@project/tsconfig-commons": "*",
-    "@project/eslint-commons": "*"
+    "@project/eslint-commons": "*",
+    "@project/test-commons": "*"
   },
   "scripts": {
+    "test": "jest",
     "lint": "eslint './**/*.{ts,tsx}'"
   }
 }

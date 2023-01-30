@@ -7,10 +7,12 @@
     "styled-components": "^5.3.6"
   },
   "devDependencies": {
+    "@project/test-commons": "*",
     "@project/tsconfig-commons": "*",
     "@project/eslint-commons": "*"
   },
   "scripts": {
+    "test": "jest",
     "lint": "eslint './**/*.{ts,tsx}'"
   }
 }
